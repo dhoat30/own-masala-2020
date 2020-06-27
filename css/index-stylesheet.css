@@ -169,3 +169,22 @@ margin: 20px 5px 0 5px;
 }
 
 /*dinner Menu*/ 
+.award-img-container{ 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.award-img-container>div{ 
+    width: 300px;
+    height: 300px;
+}
+.box-media-zoom{ 
+    width:300px; 
+    height: 300px;
+    display: block;
+}
+.grid-item img{ 
+    width: 300px; 
+    height: 300px;
+}
