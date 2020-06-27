@@ -29,6 +29,9 @@ html {
 	overflow-x: hidden !important;
 	height: 100%;
 	overflow-y: auto;
+	
+		scroll-behavior: smooth;
+	
  
 }
 body {
@@ -42,7 +45,7 @@ body {
 	color: #000;
 	overflow-y: auto;
 	font-family: 'Poppins', sans-serif;
- 
+	letter-spacing: 1px;
 }
 @-o-viewport {
 	width: device-width;
@@ -172,7 +175,6 @@ p {
 font-family: Ltc-Broadway, sans-serif;
 font-weight: 400;
 font-style: normal;
-
 }
 .hero-section-font-size{ 
 	font-size: 80px !important;
@@ -186,6 +188,9 @@ font-style: normal;
 .slogan-text{ 
 	font-family: playfair-display, serif;
 	font-size: 50px;
+}
+.price-font-size{ 
+	font-size: 40px;
 }
 
 blockquote {

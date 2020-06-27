@@ -117,7 +117,7 @@ function initRestabook() {
         $(".fixed-scroll-column-share-container").slideToggle(400);
     });
     $(".share-container").share({
-        networks: ['facebook', 'pinterest', 'tumblr', 'twitter', 'linkedin']
+        networks: ['facebook']
     });
     var shrcn = $(".share-wrapper"),
         clsh = $(".share-container a");
