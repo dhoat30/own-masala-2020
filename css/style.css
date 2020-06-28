@@ -171,27 +171,6 @@ p {
 	font-weight: 400;
 	color: #5e646a;
 }
-.broadway-font{ 
-font-family: Ltc-Broadway, sans-serif;
-font-weight: 400;
-font-style: normal;
-}
-.hero-section-font-size{ 
-	font-size: 80px !important;
-}
-.white-font{ 
-	color: white;
-}
-.left-align{ 
-	text-align: left !important;
-}
-.slogan-text{ 
-	font-family: playfair-display, serif;
-	font-size: 50px;
-}
-.price-font-size{ 
-	font-size: 40px;
-}
 
 blockquote {
 	float: left;
@@ -306,14 +285,14 @@ blockquote p {
 }
 .logo-holder {
 	float:left;
-	height:25px;
+	height:50px;
 	position:relative;
-	top:23px;
+	top:10px;
 	left:25px;
 }
 .logo-holder img {
 	width:auto;
-	height:25px;
+	height:50px;
 }
 .header-inner {
 	top:50px;
@@ -4386,14 +4365,14 @@ cite.fn .star-rating {
 	left:50%;
 	width:22px;
 	height:20px;
-	margin-left:-11px;
+	margin-left:-30px;
 	margin-top:-6px;
 }
 .nav-button span{
 	float:left;
 	width:100%;
 	height:2px;
-	background:#000;
+	background:white;
 	margin-bottom:4px;
 	border-radius:4px;
 	-webkit-transition: all 200ms linear;

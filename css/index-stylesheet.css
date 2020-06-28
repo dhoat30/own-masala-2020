@@ -1,3 +1,28 @@
+/*custom fonts*/ 
+.broadway-font{ 
+    font-family: Ltc-Broadway, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+    .hero-section-font-size{ 
+        font-size: 80px !important;
+    }
+    .white-font{ 
+        color: white;
+    }
+    .left-align{ 
+        text-align: left !important;
+    }
+    .slogan-text{ 
+        font-family: brush-script-std, sans-serif;
+font-weight: 400;
+font-style: normal;
+        font-size: 60px;
+    }
+    .price-font-size{ 
+        font-size: 40px;
+    }
+    
 .team-info object{ 
 margin: 20px 5px 0 5px;
 }
@@ -113,12 +138,24 @@ margin: 20px 5px 0 5px;
     margin: 0 auto 0 0; 
 }
 @media only screen and (max-width: 600px) {
+  
+        .hero-section-font-size{ 
+            font-size: 30px !important;
+        }
+       
+        .slogan-text{ 
+            font-size: 20px;
+        }
+        
     .row-specials>div{ 
         width: 300px;
     }
     .row-specials object{ 
         width: 40px; 
         height: auto;
+    }
+    .scroll-down-wrap{ 
+        display: none;
     }
 /*menu----------*/ 
     .takeaway-menu object:nth-child(2){ 
