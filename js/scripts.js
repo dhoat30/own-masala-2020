@@ -1,6 +1,11 @@
 //   all ------------------
 function initRestabook() {
     "use strict";
+    //faq
+    $(".accordion_header").click(function(){
+        $(".accordion_header").removeClass("active");
+       $(this).addClass("active");
+    });
     //   loader ------------------
     firstLoad();
     function firstLoad() {
