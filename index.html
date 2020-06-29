@@ -3,9 +3,9 @@
     <head>
         <!--=============== basic  ===============-->
         <meta charset="UTF-8">
-        <title>Own Masala Tauranga | Award Winning Indian Restaurant | Takeaway and Dine In</title>
+        <title>Own Masala Tauranga | Award Winning Indian Restaurant</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-        <meta name="description" content="Order Online. Delivery. Takeaway & Dine In. Birthday Party. National Award Winning Indian Restaurant in Tauranga. Authentic Spices. Fresh Local Ingredients. Heaps of car park available."/>
+        <meta name="description" content="Order Online. Delivery. Takeaway & Dine In. Birthday Party. National Award Winning Indian Restaurant in Tauranga. Authentic Spices. Fresh Local Ingredients."/>
         <!--=============== css  ===============-->	
         <link type="text/css" rel="stylesheet" href="css/reset.css">
         <link type="text/css" rel="stylesheet" href="css/plugins.css">
@@ -61,9 +61,83 @@
 	  "sameAs" : [
 				   "https://www.facebook.com/yummyazownmasala", 
 				   "https://www.instagram.com/own_masala/"
-  				 ]
+                   ],
+                   "mainEntity": [{
+                    "@type": "Question",
+                    "name": "Do you take bookings for a birthday party?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Yes, you can book a restaurant for an event such as the Birthday Party, Wedding, Engagement. Please contact management on 022 399 1224 to get more information. You can also drop-off a cake in the morning, and we will keep it safe in our refrigerator for you."
+                    }
+                  }, {
+                    "@type": "Question",
+                    "name": "Can we bring our own wine? ",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Yes, you can bring a bottle of wine. Even though we have a wide range of in-house wine, we will be more than happy to serve you with your favourite wine."
+                    }
+                  }, {
+                    "@type": "Question",
+                    "name": "Do you deliver food?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Yes, we do. We charge $5 for delivery—minimum order $35. Our Delivery service covers up to 8 Km area in Tauranga."
+                    }
+                  }, {
+                    "@type": "Question",
+                    "name": "Do you do a takeaway service? ",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Yes, we do. You can place your order online or give us a call on 07 571 8502 and collect your order or get it delivered to your doorsteps."
+                    }
+                  }, {
+                    "@type": "Question",
+                    "name": "Do you take group booking?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text":"Yes. And we’re great on special occasions too. Please ask our manager for more information on 022 399 1224 or send us an email at info@ownmasala.co.nz with your requirements. We’ll get back to you as soon as possible."}
+                    },
+                  {
+                    "@type": "Question",
+                    "name": "Do you have gluten-free or dairy-free options? ",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text":"Yes, Most of our curries are gluten-free, and many curries can be made dairy-free on request. Please let us know about the allergy, and we will cook your food with precaution."}
+                    },
+                  {
+                    "@type": "Question",
+                    "name": "Do you offer catering services?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text":"Yes, we do. Please contact our management on 022 399 1224 or send an email at info@ownmasala.co.nz to get a quote."}
+                    },
+                  {
+                    "@type": "Question",
+                    "name": "Are you open on public holidays?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text":"Yes, we are open on all public holidays except for Christmas day. 10% surcharge is applied."}
+                    },
+                  {
+                    "@type": "Question",
+                    "name": "Can you make Allergen-free food?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text":"Yes, we can. Please let us know, and we will cook your food with extra care."}
+                    }
+                  
+                  ]
             }
-            </script>
+        </script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script defer src="https://www.googletagmanager.com/gtag/js?id=UA-171081620-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-171081620-1');
+        </script>
 
     </head>
     <body>
@@ -187,7 +261,9 @@
                                 <h4>A Taste Worth Experiencing </h4>
                                 <h2 class="broadway-font hero-section-font-size">Own Masala Tauranga</h2>
                                 <h3 class="slogan-text left-align white-font">Indian Restaurant & Takeaway</h3>
-                                <a href="menu.html" class="hero_btn">Check out our Menu <i class="fal fa-long-arrow-right"></i></a>
+                                <a href="#menu" class="hero_btn">Check out our Menu <i class="fal fa-long-arrow-right"></i></a>
+                                <a href="https://www.ordermeal.co.nz/own-masala-tauranga/" class="hero_btn">Order Online <i class="fal fa-long-arrow-right"></i></a>
+
                             </div>
                         </div>
                     </div>

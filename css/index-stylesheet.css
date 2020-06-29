@@ -1,3 +1,14 @@
+/*hero-section*/
+.hero-title a{ 
+    margin: 10px 10px;
+}
+.hero-title a:nth-child(5){
+    background-color: #D1AA67;
+}
+.hero-title a:nth-child(5):hover{
+    background-color: white;
+}
+
 /*custom fonts*/ 
 .broadway-font{ 
     font-family: Ltc-Broadway, sans-serif;
