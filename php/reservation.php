@@ -79,7 +79,7 @@ if(mail($address, $e_subject, $msg, $headers)) {
 	echo "<fieldset>";
 	echo "<div id='success_page'>";
 	echo "<h1>Request Sent Successfully.</h1>";
-	echo "<p>Thank you <strong>$name</strong>, Your application is accepted - we will contact you shortly.</p>";
+	echo "<p>Thank you <strong>$name</strong> for reserving a table. We will contact you soon with confirmation.</p>";
 	echo "</div>";
 	echo "</fieldset>";
 
