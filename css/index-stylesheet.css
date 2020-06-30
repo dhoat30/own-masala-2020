@@ -1,3 +1,10 @@
+html {
+    scroll-behavior: smooth;
+   
+  }
+#usp{ 
+overflow:hidden; 
+}
 /*hero-section*/
 .hero-title a{ 
     margin: 10px 10px;
@@ -9,6 +16,22 @@
     background-color: white;
 }
 
+/*88888888888*/ 
+.ring{ 
+    animation-name: rotate; 
+    animation-duration: 3s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    width: 100px;
+    animation-delay: 0ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+@keyframes rotate{ 
+    0%{ transform: rotate(0);
+    }
+    100%{transform: rotate(180deg);}
+}
 /*custom fonts*/ 
 .broadway-font{ 
     font-family: Ltc-Broadway, sans-serif;
@@ -228,7 +251,7 @@ margin: 20px 5px 0 5px;
 }
 
 .wrapper .accordion_wrap:last-child .accordion_header.active{
-  border-bottom: 2px solid #01645d;
+  border-bottom: 2px solid #C19D70  ;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
 }
