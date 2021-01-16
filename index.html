@@ -3,12 +3,13 @@
     <head>
         <!--=============== basic  ===============-->
         <meta charset="UTF-8">
-        <title>Own Masala Tauranga | Award Winning Indian Restaurant</title>
+        <title>Own Masala - Tauranga Indian Restaurant, Dine In & Takeaways</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-        <meta name="description" content="Order Online. Delivery. Takeaway & Dine In. Birthday Party. National Award Winning Indian Restaurant in Tauranga. Authentic Spices. Fresh Local Ingredients."/>
+        <meta name="description" content="Try our mouth watering authentic food prepared with original Indian ingredients and spices. Dine In and Takeaway available. For great special deals, visit our website."/>
         <!--=============== css  ===============-->	
         <link type="text/css" rel="stylesheet" href="css/reset.css">
-        <link type="text/css" rel="stylesheet" href="css/plugins.css">
+        <link rel="preload" href="css/plugins.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="css/plugins.css"></noscript>
         <link type="text/css" rel="stylesheet" href="css/style.css">
         <link type="text/css" rel="stylesheet" href="css/dark-style.css">
         <link type="text/css" rel="stylesheet" href="css/color.css">
@@ -17,7 +18,9 @@
         <!--=============== favicons ===============-->
         <link rel="shortcut icon" href="images/logo.png">
         <!--==========fonts==========-->
-        <link rel="stylesheet" href="https://use.typekit.net/pjx4dra.css">
+       
+        <link rel="preload" href="https://use.typekit.net/pjx4dra.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://use.typekit.net/pjx4dra.css"></noscript>
     
 
         <!--Schema============-->
@@ -138,6 +141,7 @@
 
         gtag('config', 'UA-171081620-1');
         </script>
+        
 
     </head>
     <body>
@@ -1177,8 +1181,11 @@
                                             </div>
                                         </div>
                                     </div>
+                                    
                                     <textarea name="comments"  id="comments" cols="30" rows="3" placeholder="Your Message:"></textarea>
                                     <div class="clearfix"></div>
+                                    <div style="margin: 20px 0 0 0;" class="g-recaptcha" data-sitekey="6Lepvi4aAAAAAB7FWvQXaiBkf-e9j3SwMv1nXo0M"></div>
+
                                     <button class="btn color-bg" id="reservation-submit">Reserve Table  <i class="fal fa-long-arrow-right"></i></button>
                                 </fieldset>
                             </form>
@@ -1199,6 +1206,16 @@
         <script src="js/jquery.min.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/scripts.js"></script>
-        
+        <script>
+            //re-captcha
+      
+
+          $('.show-reserv_button').on('click', ()=>{
+            var tag = document.createElement("script");
+            tag.src = "https://www.google.com/recaptcha/api.js";
+            document.getElementsByTagName("head")[0].appendChild(tag);
+          }
+          )
+        </script>
     </body>
 </html>
